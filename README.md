@@ -6,7 +6,7 @@
 ## 🔖 Beschrijving
 applicatie waar je met behulp van verschillende eventlisteners de kleuren van de buttons kan veranderen.
 <!-- Voeg een link toe naar Github Pages 🌐-->
-[🌐 Live](justinuievents.student.fdnd.nl)
+[🌐 Live](http://justinuievents.student.fdnd.nl/)
 
 ## 🔬 Experimenten
 Tijdens het experimenteren, was ik bezig geweest door alle buttons te selecteren in javascript met behulp van document.querySelectorAll. Echter kwam ik hierbij dat als je een alle buttons aanroept, er maar 1 button de class wordt toegevoegd. Dit vond ik erg vreemd natuurlijk. Na het uitzoeken kwam ik achter dat als je document.querySelectorAll gaat "console.loggen", dat je hierbij een NodeList terug krijgt. Aan een NodeList kan je geen eventListener toevoegen. Hierbij moest ik een for loop gaan maken zodat elke button wordt aangeroepen.
